@@ -34,8 +34,8 @@ function App() {
           {/* using ternary operator ? and : to conditionally render components */}
         {!contactSelected ? (
           <>
-          <Gallery currentCategory={currentCategory}></Gallery>
           <About></About>
+          <Gallery currentCategory={currentCategory}></Gallery>
           </>
         ) : (
           <ContactForm></ContactForm>
